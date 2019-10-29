@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 import {
   MdRemoveCircleOutline,
   MdAddCircleOutline,
-  MdDelete
-} from "react-icons/md";
+  MdDelete,
+} from 'react-icons/md';
 
-import { Container, ProductTable, Total } from "./styles";
+import { Container, ProductTable, Total } from './styles';
 
 export default function Cart() {
   return (

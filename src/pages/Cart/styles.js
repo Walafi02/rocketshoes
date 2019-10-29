@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { darken } from "polished";
+import styled from 'styled-components';
+import { darken } from 'polished';
 
 export const Container = styled.div`
   padding: 30px;
@@ -23,7 +23,7 @@ export const Container = styled.div`
       transition: background 0.2s;
 
       &:hover {
-        background: ${darken(0.03, "#715fc9")};
+        background: ${darken(0.03, '#715fc9')};
       }
     }
   }
