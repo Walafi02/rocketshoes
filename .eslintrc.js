@@ -32,6 +32,8 @@ module.exports = {
     'import/prefer-default-export': 'off',
 
     'react/state-in-constructor': 'off',
-    'react/static-property-placement': 'off'
+    'react/static-property-placement': 'off',
+    'no-param-reassign': 'off', //remove o erro quando eu tento alterar um atributo da função
+    'no-console': ['error', {allow: ['tron']}] //remove o erro no console.tron
   },
 };
