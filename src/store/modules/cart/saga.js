@@ -34,8 +34,8 @@ function* addToCart({ id }) {
     };
 
     yield put(addToCartSuccess(data));
-    history.push('/cart');
   }
+  history.push('/cart');
 }
 // takeLatest -> quando o usuario fazer 2 request ando da primeira termina ele descarta a primeira
 

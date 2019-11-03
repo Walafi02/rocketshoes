@@ -93,3 +93,19 @@ export const Total = styled.div`
     margin-left: 5px;
   }
 `;
+
+export const ProductsMessage = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  svg {
+    font-size: 60px;
+    color: #ccc;
+    margin-bottom: 10px;
+  }
+
+  strong {
+    font-size: 20px;
+  }
+`;
