@@ -25,12 +25,12 @@ export default function Home() {
     async function loadProducts() {
       const response = await api.get('products');
 
-      const products = response.data.map(product => ({
+      const productsResponse = response.data.map(product => ({
         ...product,
         priceFormatted: formatPrice(product.price),
       }));
 
-      setProducts(products);
+      setProducts(productsResponse);
     }
 
     loadProducts();
